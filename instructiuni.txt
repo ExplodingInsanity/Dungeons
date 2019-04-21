@@ -1,0 +1,12 @@
+https://www.apachefriends.org/ro/download.html
+-instaleaza xampp, lasa-l in folderul default
+-pune folderul Dungeons (asta in care e fisierul text) in C:/xampp/htdocs (tot folderul, nu doar filele din el)
+-porneste xampp control panel
+-da-i start la Apache si MySQL
+-intra pe localhost/phpmyadmin
+-in bara de sus apasa pe Import
+-da-i pe Choose File, si alege fisierul Dungeons.sql din folderul Dungeons, adica teoretic ar trebui sa fie in C:/xampp/htdocs/Dungeons/Dungeons.sql
+-apasa "Go" in josul paginii
+->teoretic acum ar trebui sa fie creata baza de date "Dungeons" in lista din stanga. daca da, poti inchide tabul ala, si poti sterge "Dungeons.sql" din folder, si si "instructiuni.txt"
+
+=> acum poti porni site-ul din chrome, daca ai pornit Apache si MySQL din Xampp. intri pe chrome si la link scrii localhost/Dungeons

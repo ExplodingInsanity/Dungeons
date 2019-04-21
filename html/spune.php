@@ -38,7 +38,7 @@ background-size:cover;
 	else echo '<font color="white">Din pacate, mesajul nu a fost trimis.</font>';
 	}
 ?>
-	<form action="./spune.php" method="POST" style="background-color:#0d1a2b; position:absolute; top:40%; left:20%; min-width:66%; min-height:66%; overflow: auto;">
+	<form action="./spune.php" method="POST" style="background-color:#0d1a2b; position:absolute; top:40%; left:20%; min-width:66%; overflow: auto;">
 		<font color=white><b>Titlu:</b></font><br>
 		<input type="text" style="width:100%;" name="titlu"><br>
 		<font color=white><b>Nume:</b></font><br>
